@@ -1,13 +1,14 @@
-**librpitx** Radio frequency transmitter library for Raspberry Pi (B, B+, PI2, PI3 and PI zero)
+**pwnbadge** Make the HITB AMS 2018 badge glow red
 
-It is now the base of *rpitx* project, separate from application
+Uses **librpitx** to transform your pi into an SDR that triggers the secret
+red glow functionality.
 
-_Copyright (c) Evariste Courjaud F5OEO. Code is GPL_V3
+Connect a wire to pin 7 of the GPIO header.
 
-# Installation
+# Build
 
-```sh
-git clone https://github.com/F5OEO/librpitx
-cd librpitx/src
 make
-```
+
+# Run
+
+sudo ./pwnbadge
